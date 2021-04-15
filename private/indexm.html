@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <title>NAKUHITAJI</title>
+        <!-- add icon link -->
+        <link rel="icon" type="image/ico" href="../img/n1.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="../style.css" rel="stylesheet">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+  <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+    <!-- STYLE CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+
+<!-- Sticky Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="nav-brand" href="#"><img src="../img/n.jpg" style="border-radius: 50%" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto"><!-- ml auto pushes the navbar to the right -->
+            <li class="nav-item active"> <!-- links with dropdowns -->
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../index.html#vm">Vision|Mission</a>
+                      <a class="dropdown-item" href="../index.html#ti">The Issue</a>
+                      <a class="dropdown-item" href="../index.html#b">Blogs</a>
+                      <a class="dropdown-item" href="../index.html#l">Leadership</a>
+                      <a class="dropdown-item" href="../index.html#fs">Founder's Story</a>
+                    </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Actions
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../private/donate.html">Donate</a>
+                      <a class="dropdown-item" href="../auth/signup.html">Join Us</a>
+                      <a class="dropdown-item" href="../auth/login.html">Log In</a>
+                      <a class="dropdown-item" href="../auth/signup.html">Sign Up-Newsletter</a>
+                      <a class="dropdown-item" href="../auth/Alogin.html">Admin</a>
+                      <a class="dropdown-item" href="activity.html" style="color: #6648b1;"><b>Activities</b></a>
+
+                    </div>
+            </li> 
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Solution
+                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="../private/solutions.html#ci">COVID-19 Intervention</a>
+                      <a class="dropdown-item" href="../private/solutions.html#he">Health Education</a>
+                      <a class="dropdown-item" href="../private/solutions.html#global">Global Advocacy</a>
+                      <a class="dropdown-item" href="../private/solutions.html#ce">Community Engagement</a>
+                      <a class="dropdown-item" href="../private/solutions.html#Events">Events</a>
+                      <a class="dropdown-item" href="../private/solutions.html#Testimonials">Testimonials</a>
+                    </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cu">Contact Us</a>
+            </li>             
+            <li class="nav-item">
+                <a class="btn btn-primary" href="donate.html" role="button">Donate</a>
+            </li>          
+        </ul>
+    </div>
+    </div>
+    
+</nav>   
+<!--- Carousel Image Slider -->
+
+<div id="slides" class="carousel slide" data-ride="carousel" id="home">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-target="#slides" data-slide-to="3"></li>
+    <li data-target="#slides" data-slide-to="4"></li>
+    <li data-target="#slides" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/background.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h1 class="display-8">NAKUHITAJI</h1>
+        <h3>Love A Girl</h3>
+        <button type="button" class="btn btn-outline-light btn-lg">JOIN US</button>
+        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/cec.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/c3c.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+        <div class="carousel-item">
+      <img src="../img/8c.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/1c.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../img/9c.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" id="vm">
+    <div class="row jumbotron">
+        <div class="col-lg-6">
+            <h2 span style="color: #6648b1"><b>Vision</b></h2>
+            <hr span style=" border-top: 2px solid #6648b1;   width: 20%; margin-left:0;">
+            <p>We envision a world where girls in East Africa live healthy, safe, educated lives while defining their own purpose-a world in which menstrual health management is recognized as a human right, and the onset of puberty as the most effective time to engage girls in a range of personal health decisions.</p>           
+        </div>
+        <div class="col-lg-6">
+          <h2 span style="color: #6648b1"><b>Mission</b></h2>
+          <hr span style=" border-top: 2px solid #6648b1;   width: 20%; margin-left:0;">
+          <p>Nakuhitaji equips adolescent girls in Kenya with the tools they need to safely navigate puberty and step into their potential, while also leading global advocacy efforts to break the period taboo. We are a pioneering voice in menstrual health management that leverages reproductive health education and sanitary pads as a combined intervention for women and girls’ empowerment.</p>
+        </div>
+    </div>
+    
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid" id="ti">
+    <div class="row jumbo">
+        <div class="col-lg-5">
+            <h1 span style="color: #6648b1; text-align:center; padding-top: 4rem;" ><b>The Issue</b></h1>
+            <hr>      
+        </div>
+        <div class="col-lg-7">
+          <p style="font-size: 17px;">In Kenya, as in many countries, adolescent girls are at risk of experiencing life-changing violations, including forced early marriage, sexual and gender-based violence, unplanned pregnancy, and female genital cutting.
+          <br>  
+          <br> 
+          Such pressures are insurmountable without knowledge of their bodies and rights; yet, there is no mandated menstrual and reproductive health education (MRHE) to deliver this critical help. 
+          If girls cannot get answers to their questions about puberty, or the tools for decision-making, they cannot make informed decisions in social or sexual relationships. Compounding this challenge, 65% of girls in Kenya cannot regularly access sanitary pads to manage their periods.</p>
+        </div>
+    </div>
+    
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding" id="b">
+        <h1 span style="color: #6648b1; text-align:center; padding-top: 1rem;"><b>Our Blogs</b></h1>
+        <hr span style="width: 30%; height: 1px; border-top: 2px solid #6648b1">
+    <div class="row blog">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="crd">
+            <img class="crd-img-top" img src="../img/gd.jpg">
+            <div class="crd-body">
+            <h2>A window to the outside world</h2>
+                <p>Bootcamp, 8th – 23th February 2020 At Nakuhitaji we strongly believe that technology catalyzes connections, helps overcome physical…</p>
+                <a href="#" class="btn btn-primary">Read More</a>      
+        </div>
+      </div>
+    </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="crd">
+            <img class="crd-img-top" img src="../img/ip.jpg">
+            <div class="crd-body">
+            <h2>STEM for gender equality</h2>
+                <p>Balance for Better: STEM for gender equality Globally, women are underrepresented in STEM. According to UNESCO, just 29% of those…</p>  
+                <a href="#" class="btn btn-primary">Read More</a>    
+        </div>
+      </div>
+    </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="crd">
+            <img class="crd-img-top" img src="../img/c2.jpg">
+            <div class="crd-body">
+            <h2>Promote girl's education</h2>
+                <p>Written by Lea Dettwiler, Programme Assistant Girls Can Code and Valentina Di Felice, Head of Impact and Learning. —- Girls…</p> 
+                <a href="#" class="btn btn-primary">Read More</a>     
+        </div>        
+    </div>
+  </div>
+    <hr class="my-4"> 
+</div>
+</div>
+
+
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+    <div class="row jumbo">
+        <div class="col-lg-4">
+          <img src="../img/jg.png" class="img-fluid">       
+        </div>
+        <div class="col-lg-8">
+           <br>
+           <br>
+           <h2 span style="color: #6648b1; font-size: 30px"><b>Judy Grahn</b></h2>
+           <br>
+            <p span style="font-size: 20px; padding: 20px; padding-left: 50px;"><i>"Menstrual blood is the only source of blood that is not traumatically induced.
+            Yet in the modern society, this is the most hidden blood, the one so rarely spoken
+            of and almost never seen, expect privately by women."</i></p
+            <br>
+            <br>       
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+    </div>
+</figure>
+
+<!--- Meet the team -->
+<div class="container-fluid padding" id="l">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4" span style="color: #6648b1;"><b>Leadership</b></h1>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+    <div class="row jumbo">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="../img/t1.jpg">
+                <div class="card-body">
+                    <h4>EMMA</h4>
+                    <span>Founder</span>
+                    <p class="card-text">Emma Moffat is the founder of Nakuhitaji Organization.</p>
+                    <br>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="../img/t3.jpg">
+                <div class="card-body">
+                    <h4>TINA</h4>
+                    <span>Diretor</span>
+                    <p class="card-text">David is the Director of Nakuhitaji Organization.</p>
+                    <br>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="../img/t2.jpg">
+                <div class="card-body">
+                    <h4>FAITH</h4>
+                    <span>Manager</span>
+                    <p class="card-text">Faith Morphine is the Manager of Nakuhitaji Organization.</p>
+                    <br>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding" id="fs">
+    <div class="row padding">
+        <div class="col-lg-8">
+            <h2 span style="color: #6648b1; font-size: 30px; padding-top: 4rem;"><b>Founder's Story</b></h2>
+            <hr span style=" border-top: 2px solid #6648b1;   width: 27%; margin-left:0; padding-top: 1rem;">
+            <p span style="font-size: 17px; margin-right: 2rem;">Emma Moffat is an Professional Corporate Communicator for the CAK, Women and Girls' Rights Advocate and Founder of Nakuhitaji Organization. She is an inspiration to millions of young women in africa and across the globe for her effort towards period poverty advocacy.
+            <br>
+            <br>
+            Nakuhitaji was founded in 2017 and is based in Nairobi. It's offices are distributed across africa and few countries abroad.
+            She is also the Director of Moftech Digital solutions and Co-founder of MoFEMA Talent School that offers street and orphaned children an opportunity to learn and discover their talents.
+            <br>
+            <br>
+            Follow her at <a href="#">@emmymoffat</a>
+            <br>
+            Read her recent profile in Forbes: How One Woman Is Starting A Menstrual Revolution in Kenya.</p>
+            <br>            
+        </div>
+        <div class="col-lg-4">
+          <img class="card-img" src="../img/t1.jpg">
+          <h4 span style="color: #6648b1; font-size: 30px; text-align: center; padding-top: 1rem;"><b>EMMA MOFFAT</b></h4>
+          <p span style="text-align: center;"><b>Founder</b>, Nakuhitaji Organization</p>
+        </div>
+    </div>
+<!--     <hr class="my-4"> -->
+</div>
+
+<!-- <hr class="my-4"> -->
+<!-- Scroll to up btn -->
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+<div class="height">
+    <h3 class="text-center scroll">Scroll down </h3>
+</div>
+
+<script type="text/javascript">
+  
+$(document).ready(function() {
+$(window).scroll(function() {
+if ($(this).scrollTop() > 20) {
+$('#toTopBtn').fadeIn();
+} else {
+$('#toTopBtn').fadeOut();
+}
+});
+
+$('#toTopBtn').click(function() {
+$("html, body").animate({
+scrollTop: 0
+}, 1000);
+return false;
+});
+});
+
+</script>
+
+
+
+
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding" id="cu">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="../img/n.jpg" style="border-radius: 50%" width="55px" height="55px">
+                <hr class="light">
+                <p>0724 578 910</p>
+                <p>nakuhitaji@gmail.com</p>
+                <p>603 tumaini</p>
+                <p>Ongata Rongai, Kajiado County, 60340</p>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>           
+        </div>          
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <p>Working Hours</p>
+                <hr class="light">
+                <p>Monday-Friday: 9AM-5PM</p>
+                <br>
+                <p>Saturday: 10AM - 4PM</p>
+                <br>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <p>Our Offices</p>
+                <hr class="light">
+                <p>Bangla, Ongata Rongai, 12345</p>
+                <p>Bangla, Ongata Rongai, 12345</p>
+                <p>Bangla, Ongata Rongai, 12345</p>
+                <p>Bangla, Ongata Rongai, 12345</p>
+            </div> 
+            <div class="col-12">
+                <hr class="light-100">
+                <h5 span style="font-size: 20px; color: #6648b1;">&copy; <span style="color: #ffffff;">MFT Graphics <span style="font-size: 20px; color: #6648b1;">| Powered by <span style="color: #ffffff;">Moftech LTD.</h5>
+            </div>           
+        </div>
+    </div>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+<script type="text/javascript" src="js/indexsign.js"></script>
+
+
+</body>
+</html>
